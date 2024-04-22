@@ -1,0 +1,428 @@
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* DM Serif Display */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ############################################################################################################ */
+/* navbar section */
+
+
+
+.hero-section {
+    background-color: #EB5454;
+    /* height: 90vh; */
+    height: max-content;
+    width: 100%;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    color: white;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    /* border: 1px solid wheat; */
+    color: white;
+}
+
+
+.navbar a {
+    color: white;
+    /* border: 1px solid wheat; */
+    text-decoration: none;
+    margin: 20px 0;
+    padding: 10px;
+    text-wrap: wrap;
+}
+
+.collapse a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    size: 60px;
+    /* font-weight: 900; */
+    /* line-height: 38.4px; */
+}
+
+.collapse a {
+    width: max-content;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.collapse a i {
+    margin: 0 3px;
+}
+
+.collapse .box a {
+    border: 1px solid white;
+
+}
+
+/* ############################################################################################################ */
+/* main-section */
+
+.main-section {
+    /* border: 1px solid wheat; */
+    /* padding: 20px 0; */
+    padding-bottom: 100px;
+}
+
+.main-section .main-img img {
+    width: 100%;
+}
+
+.main-section .main-txt {
+    padding: 100px 0;
+}
+
+.main-section .main-txt h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+}
+
+
+
+.main-section .main-txt p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    size: 18px;
+}
+
+/* ############################################################################################################ */
+/* occasions */
+
+.occasions {
+    margin: 100px 0;
+}
+
+.occasions .box1 {
+    padding: 0 100px;
+    /* border-bottom: 1px solid black; */
+}
+
+.occasions .box1 h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.occasions .box1 p {
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 500; */
+    font-style: normal;
+    size: 18px;
+}
+
+.occasions .box2 {
+    padding: 100px 0;
+    border-bottom: 1px solid black;
+}
+
+.occasions .box2 img {
+    position: relative;
+    height: 219px;
+    width: 219px;
+    z-index: 100;
+    margin-bottom: -50px;
+}
+
+.occasions .box2 .btn {
+    background-color: #EB5454;
+    color: white;
+    padding: 30px 50px;
+}
+
+.occasions .box2 .cake {
+    /* padding: 20px; */
+
+}
+
+/* ############################################################################################################ */
+/* our-intro */
+
+.our-intro {
+    width: 100%;
+    margin-top: -10%;
+}
+
+.our-intro .intro-box {
+    /* border: 1px solid wheat; */
+    background-color: wheat;
+    color: black;
+    width: 80%;
+    opacity: .9;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.our-intro .intro-box {
+    padding: 20px 50px;
+}
+
+.our-intro .intro-box h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.our-intro .intro-box p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+}
+
+/* ############################################################################################################ */
+/* who-we-are */
+.who-we-are {
+    margin: 100px 0;
+}
+
+.who-we-are .we-img img {
+    width: 352px;
+    height: 352px;
+    border-radius: 50%;
+}
+
+.who-we-are .we-content h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+}
+
+/* ############################################################################################################ */
+/* made-with-you-in-mind */
+
+.made-with-you-in-mind {
+    background-color: #FFF0F0;
+    padding: 50px;
+
+}
+
+.made-with-you-in-mind .box1 h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    padding: 20px 0;
+    /* border: 1px solid black; */
+}
+
+.made-with-you-in-mind .box1 p {
+    padding: 20px 0;
+}
+
+.made-with-you-in-mind .box2 {
+    margin: 20px 0;
+    /* border: 1px solid black; */
+}
+
+.made-with-you-in-mind .box2 .title {
+    margin: 10px;
+    color: #EB5454;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    size: 24px;
+}
+
+/* ############################################################################################################ */
+/* address */
+
+.address {
+    margin: 100px 20px;
+}
+
+.address .map img {
+    height: 544px;
+    width: 544px;
+}
+
+.address .map-content h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+
+}
+
+.address .map-content li {
+    color: #EB5454;
+}
+
+/* ############################################################################################################ */
+/* customer-care */
+
+.customer-care {
+    background-color: #FFF0F0;
+    padding: 100px 0;
+}
+
+.customer-care .box1 {
+    margin-bottom: 50px;
+}
+
+.customer-care .box1 h1 {
+    padding: 10px 0;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+}
+
+.customer-care .box2 .ss img {
+    height: 352px;
+    width: 352px;
+    border-radius: 16px;
+}
+
+.customer-care .box2 .ss {
+    padding: 10px;
+}
+
+
+/* ############################################################################################################ */
+/* get-in-touch */
+
+.get-in-touch {
+    margin: 100px 0;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+
+.get-in-touch .contact-content {
+    padding: 10px 50px;
+    /* border: 1px solid black; */
+
+}
+
+.get-in-touch .contact-content h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+}
+
+.get-in-touch .contact-content .btn {
+    margin: 10px;
+    color: white;
+    background: #EB5454;
+    /* padding: 5px 10px; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    size: 16px;
+}
+
+.get-in-touch .contact-content p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    size: 16px;
+}
+
+.get-in-touch .contact-content .btn i {
+    margin: 0 3px;
+}
+
+.get-in-touch .insta h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.get-in-touch .insta img {
+    z-index: 10;
+    position: relative;
+    height: 500px;
+    width: 600px;
+}
+
+/* ############################################################################################################ */
+/* footer */
+.footer {
+    background: #EB5454;
+    padding: 100px 0;
+    color: white;
+}
+
+.footer .col {
+    padding: 20px 50px;
+}
+
+
+.footer .col h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    size: 16px;
+}
+
+.footer .col p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    size: 16px;
+}
+
+.footer .copyright {
+    margin-top: 50px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    size: 16px;
+
+}
+
+
+/* ############################################################################################################ */
+/* Media Queries */
+@media (max-width: 995px) {
+    .main-section .main-txt h1 {
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+    }
+
+    .customer-care .box2 .ss img {
+        height: 150px;
+        width: 150px;
+        border-radius: 16px;
+    }
+}
+
+@media (max-width : 1100px) {
+    .who-we-are .we-img img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 575px) {
+    .made-with-you-in-mind .box2 .col {
+        width: 100%;
+    }
+}
